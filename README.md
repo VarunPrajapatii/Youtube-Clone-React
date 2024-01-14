@@ -1,3 +1,12 @@
+In this project I have made Youtube Application Clone. There is a main application page in which I have used Goodle's Api
+to fetch 50 youtube trending videos in India region and when you click one of them you get to route to a 
+video page where I have embedded that video from youtube. I have made a comment section down the video. 
+After a while Ive made a live chat section there too... 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
