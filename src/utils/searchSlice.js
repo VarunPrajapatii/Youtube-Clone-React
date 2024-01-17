@@ -5,7 +5,8 @@ const searchSlice = createSlice({
     initialState: {},
     reducers: {
         cacheResults: (state, action) => {
-            state = Object.assign(state, action.payload);
+            // state = { ...action.payload, ...state};   //JS ES6 spread operator
+            state = Object.assign(state, action.payload);   //Merge 2 objects in JS 
         },
     },
 });

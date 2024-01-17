@@ -3,8 +3,14 @@ to fetch 50 youtube trending videos in India region and when you click one of th
 video page where I have embedded that video from youtube. I have made a comment section down the video. 
 After a while Ive made a live chat section there too... 
 
+Two of the very good features according to in this project are, firstly, the search bar, in which I used again Youtube's 
+API for search suggestions... So whats special is the debouncing it does and the caching of search results which makes it 
+a well organized, well optimized search. Secondly, is the live chat, in which i have used a api for randdom names generated 
+and random messages it puts.
 
-
+One of a really cool feature is, I it has an nesting comments unlike youtube. One example of this nested comments is 
+Reddit. For this I have used nested Components concept to nest the replies on the comments below the youtube video in 
+Video page...
 
 
 # Getting Started with Create React App

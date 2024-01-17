@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ChatMessage = ({name, message}) => {
   return (
@@ -8,7 +8,7 @@ const ChatMessage = ({name, message}) => {
       <span>{message}</span>
       
     </div>
-  )
-}
+  );
+};
 
-export default ChatMessage
+export default ChatMessage;

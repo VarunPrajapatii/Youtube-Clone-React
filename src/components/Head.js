@@ -8,6 +8,9 @@ const Head = () => {
     const [searchQuery, setSearchQuery] = useState("");
     const [suggestions, setSuggestions] = useState([]);
     const [showSuggestions, setShowSuggestions] = useState(false);
+    
+    const dispatch = useDispatch();
+
 
     const searchCache = useSelector((store) => store.search);
 
@@ -30,20 +33,21 @@ const Head = () => {
             
     }, [searchQuery]);
 
-    /** key- i
+    /** 
+     * See what will happen is when we press the key:-
+     * key- i
      * - render the component
      * - useEffect();
-     * start timer => make api call after 200ms
+     * - start timer => make api call after 200ms
      * 
      * key - ip
-     * - destroy the component then useEffect return method
+     * - destroy the component just after that useEffect return method
      * - re-render the component
      * - useEffect()
      * - start timer => make api call after 200ms
      */
 
     
-    const dispatch = useDispatch();
 
     const toggleMenuHandler = () => {
         dispatch(toggleMenu());
